@@ -1,0 +1,23 @@
+set prefix mph
+opt * {background grey80 activeBackground grey70}
+cfg . "-background grey80"
+menu {Help {About} }
+
+l_Satellite r_M01 r_M02 r_N18 r_N19 b_Set_Default_Values
+
+l_TIME e_TIME 
+l_REVOLUTION e_Revolution 
+l_NUMBER e_NUMBER s_NUMBER 
+l_PROD_RULES e_PROD_RULES
+
+l_LOC_ID r_SVL r_FBK r_WAL e_site
+l_MPF_ACQ_SITE r_CDA1 r_CDA2 r_DEW_
+l_DATA_SOURCE  r_GAC r_GDS
+
+c_VCIDFILTERING
+c_REVERSE_MODE
+
+l_Minutes e_Minutes {s_Minutes}
+l_Jitter  e_Jitter
+
+b_EXIT b_Create_Schedule
